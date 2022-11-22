@@ -1,0 +1,29 @@
+.corpo {
+    width: 100%;
+    height: 100%;
+    color: white;
+}
+
+.imagemDeCapa{
+    width: 9.5vw;
+    height: 22vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.divDeCadastro{
+    display: flex;
+    flex-direction: column; 
+}
+
+.informacoesDoNovoLivro {
+    display: flex;
+    flex-direction: column;
+}
+
+@media (max-width: 768px){
+    .imagemDeCapa{
+        width: 18vw;
+    }
+}

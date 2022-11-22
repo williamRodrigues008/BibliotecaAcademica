@@ -1,0 +1,15 @@
+﻿@model IEnumerable<BibliotecaAcademica.Models.Categoria>
+<link href="~/css/categorias.css" rel="stylesheet" />
+<div class="corpo">
+    <div class="divCategoria">
+        <ul class="listaCategoria">
+            <form asp-action="LivrosPorCategoria">
+
+                @foreach (var item in Model)
+                {
+                    <button id="botao" name="categoria" value="@item.Nome" type="submit" class="categoria">@item.Nome</button>
+                }
+            </form>
+        </ul>
+    </div>
+</div>

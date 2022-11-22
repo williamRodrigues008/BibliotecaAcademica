@@ -1,0 +1,48 @@
+﻿@model IEnumerable<BibliotecaAcademica.Models.Livro>
+<link href="~/css/detalhes.css" rel="stylesheet" />
+
+<div id="corpo">
+    <form id="formularioDeCadastro" asp-controller="Livros" asp-action="LerLivro">
+        @foreach (var item in Model)
+        {
+
+            <div style="display: flex; flex-direction: row;">
+                <div class="divImagemDaCapa">
+                    @if(string.IsNullOrEmpty(@item.Capa)){
+                        <img src="~/Capas/semCapa.jpg" class="imagemDeCapa" />
+                    }
+                    else{
+                        <img src="~/Livros/@item.Titulo.Replace(" ", "_")/@item.Capa" class="imagemDeCapa" />
+                    }
+                </div>
+            </div>
+            <div id="divDeCadastro">
+                <div class="informacoesDoNovoLivro">
+                    <input hidden name="id" value="@item.IdLivro" />
+                    <div>
+                        <span>Titulo:</span>
+                        <span class="inputTitulo">@item.Titulo</span>
+                    </div>
+
+                    <div>
+                        <label for="autor">Autor:</label>
+                        <label class="inputAutor">@item.Autor</label>
+                    </div>
+                    <div>
+                        <label for="genero">Genero:</label>
+                        <label class="inputGenero">@item.Genero</label>
+                    </div>
+
+                    <div>
+                        <label for="lancamento">Lançamento:</label>
+                        <label class="inputLancamento">@item.Lancamento.ToString("dd/MM/yyyy")</label>
+                    </div>
+                </div>
+            </div>
+        }
+        <hr />
+        <div style="display: flex; justify-content: center;">
+            <button type="submit" class="btnLerLivro" style="border:none; background-color:#044eff; width:80%; height:5vh; color:white; border-radius:5px;">Iniciar leitura</button>
+        </div>
+    </form>
+</div>

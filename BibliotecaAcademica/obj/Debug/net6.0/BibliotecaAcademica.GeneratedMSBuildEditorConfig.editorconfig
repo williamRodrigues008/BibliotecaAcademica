@@ -1,0 +1,60 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = BibliotecaAcademica
+build_property.RootNamespace = BibliotecaAcademica
+build_property.ProjectDir = C:\Users\WILLI\Desktop\ExpoFadesa\BibliotecaAcademica\BibliotecaAcademica\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\WILLI\Desktop\ExpoFadesa\BibliotecaAcademica\BibliotecaAcademica
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/WILLI/Desktop/ExpoFadesa/BibliotecaAcademica/BibliotecaAcademica/Views/Categoria/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmlhXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/WILLI/Desktop/ExpoFadesa/BibliotecaAcademica/BibliotecaAcademica/Views/Categoria/LivrosPorCategoria.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmlhXExpdnJvc1BvckNhdGVnb3JpYS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/WILLI/Desktop/ExpoFadesa/BibliotecaAcademica/BibliotecaAcademica/Views/Home/AdicionarLivro.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBZGljaW9uYXJMaXZyby5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/WILLI/Desktop/ExpoFadesa/BibliotecaAcademica/BibliotecaAcademica/Views/Home/DetalhesDoLivro.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxEZXRhbGhlc0RvTGl2cm8uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/WILLI/Desktop/ExpoFadesa/BibliotecaAcademica/BibliotecaAcademica/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/WILLI/Desktop/ExpoFadesa/BibliotecaAcademica/BibliotecaAcademica/Views/Livros/LerLivro.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGl2cm9zXExlckxpdnJvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/WILLI/Desktop/ExpoFadesa/BibliotecaAcademica/BibliotecaAcademica/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/WILLI/Desktop/ExpoFadesa/BibliotecaAcademica/BibliotecaAcademica/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/WILLI/Desktop/ExpoFadesa/BibliotecaAcademica/BibliotecaAcademica/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/WILLI/Desktop/ExpoFadesa/BibliotecaAcademica/BibliotecaAcademica/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/WILLI/Desktop/ExpoFadesa/BibliotecaAcademica/BibliotecaAcademica/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-xmaxq32vpt

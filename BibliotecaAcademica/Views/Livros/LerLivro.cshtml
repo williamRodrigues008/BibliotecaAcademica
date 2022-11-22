@@ -1,0 +1,7 @@
+﻿@model IEnumerable<BibliotecaAcademica.Models.Livro>
+@foreach (var item in Model)
+{   
+<div style="width: 98vw; height: 80vh">
+        <embed type="application/pdf" style="width: 98vw; border:none; height: 80vh; overflow:hidden;" src="~/Livros/@(item.Titulo.Replace(" ", "_") + '/' + item.Caminho)"></embed>
+</div>
+}

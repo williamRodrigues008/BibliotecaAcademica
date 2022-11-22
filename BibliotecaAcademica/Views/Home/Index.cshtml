@@ -1,0 +1,43 @@
+﻿@model IEnumerable<BibliotecaAcademica.Models.Livro>
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+ <h1 style="text-align: center;">Bem vindo à Biblioteca Academica Fadesa</h1>
+<div class="corpo">
+    @foreach (var dadosDoLivro in Model)
+    {
+        <div class="livro">
+            @if(string.IsNullOrEmpty(dadosDoLivro.Capa) || (dadosDoLivro.Capa == "semCapa")){
+                <img src="~/Capas/semCapa.jpg" class="capaLivro" />
+            }else{
+                <img src="~/Livros/@dadosDoLivro.Titulo.Replace(" ", "_")/@dadosDoLivro.Capa" class="capaLivro" />
+            }
+            <div class="informacoesLivro" style="-o-text-overflow:ellipsis;">
+                <a class="telaDeAdicaoDeLivro" style="font-size: 14pt; cursor:pointer; color: white; text-decoration: none; white-space:nowrap;" onclick="AbrirTelaDeDetalhes(@dadosDoLivro.IdLivro)">
+                    <span style="display:flex; overflow:hidden;">@dadosDoLivro.Titulo</span>
+                    <span style="display:flex; overflow:hidden; font-size: 9pt;">@dadosDoLivro.Autor</span>
+                </a>
+            </div>
+        </div>
+    }
+
+    <div class="livro">
+        <a style="text-decoration:none; display: flex; flex-direction: column; align-items: center;">
+            <span class="adicionarLivro" onclick="AbrirTelaAdiconarLivro()">+</span>
+            <label>Adicionar Livro</label>
+        </a>
+    </div>
+</div>
+
+<div class="modal fade" id="detalhesLivro" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-md">
+        <div class="modal-content bg-dark">
+            <div class="modal-header">
+                <h3 class="modal-title fs-5" id="TituloDaTela"></h3>
+            </div>
+            <div class="modal-body">
+            </div>
+        </div>
+    </div>
+</div>
